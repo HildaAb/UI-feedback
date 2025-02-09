@@ -41,7 +41,8 @@ h1 {
   margin: 10px 5px;
 }
 
-.rating:hover .rating.active {
+.rating:hover,
+.rating.active {
   background-color: rgba(15, 68, 16, 0.5);
   color: whitesmoke;
   border-radius: 8px;
